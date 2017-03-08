@@ -14,7 +14,6 @@
         <type>select</type>
         <text>¿Por qué los peces no van a la escuela?</text>
         <option>Porque no quieren.</option>
-		<option>Selecciona una...</option>
         <option>El idioma pez es muy complejo.</option>
         <option>Porque la marea está baja.</option>
         <option>Porque se le mojan los libros.</option>
@@ -23,7 +22,6 @@
     <question id='4'>
         <type>select</type>
         <text>¿Por qué el perro mueve la cola?</text>
-		<option>Selecciona una...</option>
         <option>Porque la cola no puede mover al perro.</option>
         <option>Porque quiere hablar.</option>
         <option>Porque no sabe guiñar un ojo.</option>
