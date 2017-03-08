@@ -14,6 +14,7 @@
         <type>select</type>
         <text>¿Por qué los peces no van a la escuela?</text>
         <option>Porque no quieren.</option>
+		<option>Selecciona una...</option>
         <option>El idioma pez es muy complejo.</option>
         <option>Porque la marea está baja.</option>
         <option>Porque se le mojan los libros.</option>
@@ -22,6 +23,7 @@
     <question id='4'>
         <type>select</type>
         <text>¿Por qué el perro mueve la cola?</text>
+		<option>Selecciona una...</option>
         <option>Porque la cola no puede mover al perro.</option>
         <option>Porque quiere hablar.</option>
         <option>Porque no sabe guiñar un ojo.</option>
@@ -29,7 +31,7 @@
         <answer>0</answer>
     </question>
     <question id='5'>
-        <type>label</type>
+        <type>multiple</type>
         <text>¿Qué significa HTML?</text>
         <option>Hiperactividad de Transeuntes de un Municipio Lunar.</option>
         <option>Hyper Text Mark Language.</option>
@@ -38,7 +40,7 @@
         <answer>1</answer>
     </question>
     <question id='6'>
-        <type>label</type>
+        <type>multiple</type>
         <text>¿Qué es una oreja?</text>
         <option>Un adverbio de cantidad.</option>
         <option>Un conjunto matemático.</option>
