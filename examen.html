@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Examen</title>
+		<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+		<meta name="description" content="HTML XML JAVASCRIP ">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'> 
+		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'> 
+		<script src='js/questions.js'></script>
+	</head>
+
+<body>
+<!--Cabecera-->
+	<div id="examenDiv">
+		<br/>
+		<img id="test" src="img/test1.png" alt="Examen tipo test">
+		<h5>DAM1 Examen Tipo Test</h5>
+		<div id="menu">
+			<ul id="enlaceExamen">
+				<li><a href="index.html"><b>Volver a Inicio</b></a></li>
+			</ul>
+		</div>				
+	</div>
+
+<!--Parte principal del formulario -->
+
+<form id='myform'>
+ 
+ <!--pregunta tipo text -->
+ 
+ <h3><div id='text'></div></h3>
+ <input type="text" name="quest1" />
+ <br><br>
+ 
+  <!--pregunta tipo text -->
+  
+ <h3><div id='text1'></div></h3>
+ <input type="text" name="quest2" />
+  <br><br>
+ 
+ <!--pregunta tipo checkbox -->
+ 
+ <div id='checkbox1'></div>
+ <br><br>
+ 
+ <!--pregunta tipo checkbox -->
+ 
+ <div id='checkbox2'></div>
+<br><br>
+ 
+ <!--pregunta tipo select-->
+ 
+ <h3 id='select'></h3>
+ <select id='sel'>
+<option selected value="-1">Selecciona una...</option>
+ </select>
+ <br><br>
+ 
+
+ <!--pregunta tipo select-->
+ 
+  <h3 id='select1'></h3>
+ <select id='sel1'>
+<option selected value="-1">Selecciona una...</option>
+ </select>
+ <br><br>
+ 
+
+  <!--pregunta tipo radio-->
+  <div id='radio'></div>
+ <br><br>
+ 
+ <!--pregunta tipo radio-->
+ <div id='radio1'></div>
+ <br><br>
+ 
+ <!--pregunta tipo multiple-->
+ <h3 id='multiple'></h3>
+ <select multiple  id='mult'>
+ </select>
+<br><br>
+ 
+ <!--pregunta tipo multiple-->
+ <h3 id='multiple1'></h3>
+ <select multiple  id='mult1'>
+ </select>
+ <br><br>
+ 
+ 
+ <input id='cor' type='submit' value='corregir preguntas'>
+</form>
+ 
+ <div id='resultadosDiv'>
+	<h5>Resultados de las preguntas seleccionadas: </h5>
+ </div>
+ 
+</body>
+</html>
