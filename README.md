@@ -1,6 +1,6 @@
 # Examen
-Examen tipo test
-HTML, CSS y JavaScript
+Examen_tipo_test
+HTML, CSS, XML y JavaScript
 
 El proyecto consta de dos documentos HTML, dos documentos CSS y un documento JavaScript. El objetivo del proyecto es trasladar toda la información existente en el documento XML al documento HTML con la ayuda de JavaScript
 
