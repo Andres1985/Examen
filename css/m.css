@@ -1,7 +1,97 @@
-body,html{margin:0px}
-body{width:96%;padding-left:2%;padding-right:2%}
-body,input,select,label{font-size:5vw}
-h3{font-size:7vw}
-input,select{width:80%}
-input[type=checkbox]{width:5%;zoom:1.5}
-form{background-color:aliceblue;padding:1%}
+body{ background-color:#F08080; width:70%;padding-left:15%;padding-right:15%; font-size:100%}
+
+#myform{background:aliceblue; border: 1px solid; box-shadow: 1px 1px 6px #000000; 
+	margin: 0 auto; padding: 0 41px 41px; width: auto; height: auto}
+
+body,input,select,label{font-size:1.3vw}
+
+#index{	background-color:#48D1CC;
+	margin-bottom: 5%;
+	color: #8B0000; 
+	height:20%; 
+	border-radius:30px;
+	padding-left:10%;
+	font-size: 120%;	
+}
+
+#examenDiv{text-align:center}
+#examenDiv img{display: block; margin: 0 auto; width: 15%;}
+
+
+
+
+h3{background-color:#48D1CC;
+	margin-bottom: 5%;
+	color: #8B0000; 
+	height:20%; 
+	border-radius:30px;
+	padding-left:10%;
+	 font-size: 100%;
+	text-align:left
+	}
+ul{list-style-type:none;margin:0 30px;padding:0;overflow:hidden}
+
+/*li a{color:red;float: right; text-align:center;padding:0;font-family:verdana;font-size:1em;text-decoration:none}*/
+	
+h5{background-color:#48D1CC;
+	margin-bottom: 5%;
+	color: #8B0000; 
+	height:20%; 
+	border-radius:30px;
+	font-size: 200%;
+	text-align:center
+	}
+
+
+input[type=checkbox]{width:5%;}
+input[type=radio]{width:5%;}
+
+#checkbox1{display; block}
+
+form{background-color:aliceblue;
+		padding:3%;
+		height: 10%;
+				}
+
+#resultadosDiv{width:50%;margin:20px auto;}
+
+#cor{display:block;text-align:center;margin:0 auto}
+
+
+#enlaceExamen li a{
+/*estilo de los enlaces */
+color:#48D1CC;
+text-decoration:none;
+font-size:150%;
+line-height:1.3em;
+padding:10px 14px 8px 16px;
+display:block;
+color: green;
+cursor: pointer;
+float: center;
+
+}
+
+#enlaceExamen li:hover a{
+color: yellow;
+text-decoration:underline;
+}
+
+#enlaceIndex li a{
+/*estilo de los enlaces */
+color:#48D1CC;
+text-decoration:none;
+font-size:150%;
+line-height:1.3em;
+padding:10px 14px 8px 16px;
+display:block;
+color: red;
+cursor: pointer;
+
+
+}
+
+#enlaceIndex li:hover a{
+color: green;
+text-decoration:underline;
+}
